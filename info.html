@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Эмма Майерс</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#sidebar" data-bs-offset="70">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Эмма Майерс</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="info.html">Основная информация</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="films.html">Список фильмов</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="emma3.jpg" class="d-block w-100" alt="ЭммаМайерс1">
+            </div>
+            <div class="carousel-item">
+                <img src="emma2.jpg" class="d-block w-100" alt="ЭммаМайерс2">
+            </div>
+            <div class="carousel-item">
+                <img src="emma1.jpg" class="d-block w-100" alt="ЭммаМайерс3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#actorCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#actorCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+        </button>
+    </div>
+</div>
+
+
+<div class="wrapper">
+        <div id="sidebar">
+            <h5>Содержание</h5>
+            <nav class="nav flex-column" style = "height: 100%; width: 10%">
+                <a class="nav-link" href="#carousel">Карусель</a>
+                <a class="nav-link" href="#films">Карточки с фильмами</a>
+                <a class="nav-link" href="#about">Информация</a>
+            </nav>
+        </div>
+</div>
+
+<div id="films" class="film-cards">
+    <div class="col-md-4">
+        <div class="card">
+            <img src="card1.webp" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Уэнсдэй</h5>
+                <p class="card-text">Уэнсдэй,  учится в академии Nevermore. Ей предстоит освоить экстрасенсорные способности, чтобы остановить местного серийного убийцу и раскрыть тайну родителей.</p>
+                <a href="https://www.kinopoisk.ru/series/4365427/" class="btn btn-primary">Смотреть на Кинопоиске</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <img src="card2.webp" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Хороших девочек не убивают</h5>
+                <p class="card-text">Тихий английский городок. Любознательная и упрямая школьница Пиппа Фитц-Амоби решает раскрыть убийство пятилетней давности. </p>
+                <a href="https://www.kinopoisk.ru/series/5401798/" class="btn btn-primary">Смотреть на Кинопоиске</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <img src="card3.webp" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Девушка в подвале</h5>
+                <p class="card-text">Сара с нетерпением ждет совершеннолетия, чтобы съехать от отца-тирана. Однако не успевает она задуть праздничные свечи, как папаша хватает её и запирает в подвале.</p>
+                <a href="https://www.kinopoisk.ru/film/1435749/" class="btn btn-primary">Смотреть на Кинопоиске</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <h3 id="about" class="text-center">Информация об актёре</h3>
+    <div class = "text-center">
+        <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#info">Показать/Скрыть информацию</button>
+    </div>
+    <div id="info" class="collapse">
+        <div class="container1">
+            <h5>Эмма Майерс</h5>
+            <div class="bio">
+                <p>Эмма Майерс родилась в Лос-Анджелесе, Калифорния. С раннего возраста она проявляла интерес к актерскому мастерству и начала свою карьеру в детских театрах.</p>
+                <p>Она училась в Университете Южной Калифорнии, где изучала драматическое искусство и кино. Эмма быстро завоевала популярность благодаря своим ролям в различных телесериалах и фильмах.</p>
+                <p>В личной жизни Эмма увлекается живописью и путешествиями. Она активно поддерживает экологические инициативы и занимается волонтерством.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

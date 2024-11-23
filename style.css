@@ -1,0 +1,41 @@
+body 
+{
+    background: rgb(219, 219, 219);
+}
+
+.carousel-item img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container1 {
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px; 
+}
+
+.film-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1200px;
+    margin: auto;
+  }
+
+.container-fluid {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.information {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
